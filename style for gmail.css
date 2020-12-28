@@ -1,0 +1,292 @@
+*,
+*::before,
+*::after{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Nunito Sans',sans-serif;
+	font-size:14px;
+}
+
+/*.hero-section-desktop{
+	display: grid;
+	grid-template-columns:1fr 1fr;
+    padding:0 72px;
+}*/
+ .hero-sectio-desktop img{
+	width:100%;
+}
+
+
+.hero-section-desktop h1{
+	text-align:left;
+    font-size:56px;
+    margin-bottom:48px;
+	line-height: 1.25;
+}
+.hero-section-desktop p{
+	text-align:left;
+	line-height: 1.5;
+	margin-bottom: 48px;
+
+}
+.hero-section-desktop .btn{
+	text-align:left;
+	font-size:16px;
+	line-height: 64px;
+    margin-bottom: 48px;
+
+}
+.content{
+	max-width:50%;
+}
+
+
+@media (min-width:800px){
+	*{
+       font-size:16px;
+	}
+	}
+
+.mr-auto{
+	margin-right:auto;
+}
+a{
+	display:inline-block;
+	text-decoration: none;
+	color:#666;
+}
+a:hover{
+	color:black;
+}
+header{
+	background:white;
+	box-shadow: 0 0 4px 4px #eee;
+	width: 100%;
+	/*position:fixed;*/
+}
+.clear{
+	height:112px;
+}
+.header-desktop nav{
+	height:64px;
+	display:flex;
+	align-items: center;
+	padding:0 2.6%;
+	border-bottom:1px solid #ddd;
+}
+.header-mobile nav{
+	height:56px;
+	display:flex;
+	align-items: center;
+	padding:0 2.6%;
+	border-bottom:1px solid #ddd;
+}
+header img{
+	height:34px;
+
+}
+.btn{
+	color:white;
+	background: #1a73e8;
+	padding:0 24px;
+	font-size:14px;
+	line-height:36px;
+	border-radius:2px;
+	letter-spacing:0.75px;
+	font-weight:600;
+
+
+}
+.btn:hover{
+	color:white;
+	background: #174ea6;
+}
+.gmail-logo-text{
+	font-size:24px;
+	color:#666;
+	margin-left:8px;
+	font-weight:600;
+}
+footer{
+	padding:32px 16px;
+	background-color: #f8f8f8;
+}
+
+footer img{
+	height: 36px;
+
+}
+footer nav{
+	margin:32px 0;
+}
+footer ul{
+  display: flex;
+  list-style:none;
+
+}
+footer li{
+	margin-right:16px;
+}
+footer select{
+	margin-left:16px;
+	border:none;
+	background-color: #f8f8f8;
+	padding:8px;
+	width:160px;
+}
+.help-icon{
+	color:white;
+	font-weight: 600;
+	background:black;
+	height:20px;
+	width:20px;
+	display:inline-block;
+	text-align:center;
+	border-radius:99px;
+    margin-right:8px;
+
+}
+/*sections*/
+
+section{
+	padding: 48px 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+h1,h2{
+	font-size:32px;
+	color:#222;
+	font-weight:600;
+	margin: 20px 0;
+	text-align: center;
+	letter-spacing:1px;
+}
+h1{
+   font-size: 42px;
+}
+p
+{
+	text-align: center;
+	margin: 12px;
+
+}
+.hero-section,.avoid-suspicious-emails-section,.never-drop-ball-section,.stay-organised-section{
+	background: #f8f8f8;
+}
+.get-gmail-section > * + *{
+	margin: 28px 0;
+}
+.get-gmail-section img{
+	height: 72px;
+
+}
+.get-gmail-section .btn{
+	line-height: 42px;
+}
+.experience-gmail-section img{
+	height:48px;
+	
+}
+.m4{
+	margin: 20px 40px;
+}
+.devices-section img{
+	width: 100%;   
+}
+.desktop-only{
+  display:none;
+}
+.header-mobile{
+	position:fixed;
+}
+.header-desktop{
+	position:fixed;
+}
+.header-desktop a{
+	margin-left:20px;
+}
+.header-desktop .btn{
+	line-height: 48px;
+}
+@media (min-width:800px){
+	h1{
+		font-size: 48px;
+	}
+	h2{
+		font-size:42px;
+		}
+/*.hero-section-desktop{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    padding:0 72px;
+}
+.
+.hero-section-desktop img{
+	width:100%;
+}
+
+
+.hero-section-desktop h1{
+	text-align:left;
+    font-size:56px;
+    margin-bottom:48px;
+	line-height: 1.25;
+}
+.hero-section-desktop p{
+	text-align:left;
+	line-height: 1.5;
+	margin-bottom: 48px;
+
+}
+.hero-section-desktop .btn{
+	text-align:left;
+	font-size:16px;
+	line-height: 64px;
+    margin-bottom: 48px;
+
+}
+.content{
+	width:50%;
+}*/
+
+
+
+
+
+
+.hero-section-desktop{
+	display:flex;
+    flex-direction: row;
+    padding:0 72px;
+}
+.take-action-section-desktop .column{
+	width:50%;
+	padding:50; 
+}
+.take-action-section-desktop img{
+	width:50%;
+	padding:25;
+
+}
+section p, 
+section h2{
+	text-align:left;
+}
+
+.mobile-only{
+   display:none; 
+}
+.desktop-only{
+  display:block;
+}
+.take-action-section-desktop{
+	display:flex;
+    flex-direction: row;
+}
+}
+img {
+	max-width:100%;
+}
